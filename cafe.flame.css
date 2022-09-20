@@ -1,0 +1,23 @@
+body {background-color: burlywood;}
+h1   {color: brown;}
+p    {color: peru;}
+
+.popup{
+    width: 200px;
+    background:#fff;
+    border-radius: 2px;
+    top:0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
